@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "slowfallcountdown",
+	"version": "${version}",
+	"name": "SlowfallCountdown",
+	"description": "Notifies you when the other player runs out of slow falling.",
+	"authors": [
+		"11VZ"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/slowfallcountdown/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.vz11.Slowfallcountdown"
+		]
+	},
+	"mixins": [
+		"slowfallcountdown.mixins.json"
+	],
+	"depends": {
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
